@@ -33,14 +33,14 @@
           <label for="height"> Altura em metros</label>
           <div class="input-field">
             <i class="fa-solid fa-ruler"></i>
-            <input type="number" id="height" required />
+            <input type="number" id="height" step="0.01" required />
             <span>m</span>
           </div>
         </div>
         <button id="calculate">Calcular</button>
       </form>
 
-      <div id="infos">
+      <div id="infos" class="hidden">
         <div id="result">
           <div id="bmi">
             <span id="value"></span>

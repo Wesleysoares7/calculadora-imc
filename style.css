@@ -154,3 +154,15 @@ body {
 #more_infor a:hover {
   color: #cbd5e1;
 }
+
+.hidden {
+  display: none;
+}
+
+.normal {
+  color: #16a34a;
+}
+
+.attention {
+  color: #dc2626;
+}
